@@ -1,0 +1,9 @@
+# Minimal SearXNG config: enables the JSON API Lumen needs.
+use_default_settings: true
+server:
+  secret_key: "change-me-to-a-random-string"
+  limiter: false
+search:
+  formats:
+    - html
+    - json

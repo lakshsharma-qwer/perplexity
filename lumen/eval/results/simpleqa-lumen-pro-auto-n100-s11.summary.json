@@ -1,0 +1,14 @@
+{
+  "run": "simpleqa-lumen-pro-auto-n100-s11",
+  "n": 100,
+  "errors": 0,
+  "correct": 76,
+  "incorrect": 5,
+  "notAttempted": 19,
+  "accuracy": 0.76,
+  "accuracyGivenAttempted": 0.938,
+  "fScore": 0.84,
+  "medianSeconds": 117.4,
+  "grader": "claude-code:sonnet",
+  "date": "2026-10-27T01:18:03.050Z"
+}

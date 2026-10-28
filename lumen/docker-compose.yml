@@ -1,0 +1,12 @@
+# Optional: self-hosted SearXNG metasearch for broad web coverage without API keys.
+#   docker compose up -d searxng   then set SEARXNG_URL=http://localhost:8888 in .env.local
+services:
+  searxng:
+    image: searxng/searxng:latest
+    ports:
+      - "8888:8080"
+    volumes:
+      - ./searxng:/etc/searxng
+    environment:
+      - SEARXNG_BASE_URL=http://localhost:8888/
+    restart: unless-stopped

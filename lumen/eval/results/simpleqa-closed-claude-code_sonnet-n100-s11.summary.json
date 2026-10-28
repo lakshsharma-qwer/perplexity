@@ -1,0 +1,14 @@
+{
+  "run": "simpleqa-closed-claude-code_sonnet-n100-s11",
+  "n": 100,
+  "errors": 0,
+  "correct": 35,
+  "incorrect": 46,
+  "notAttempted": 19,
+  "accuracy": 0.35,
+  "accuracyGivenAttempted": 0.432,
+  "fScore": 0.387,
+  "medianSeconds": 11.8,
+  "grader": "claude-code:sonnet",
+  "date": "2026-10-27T08:13:13.951Z"
+}
